@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Result</title>
+</head>
+<body>
+    <h1>Quiz Result</h1>
+    <p>Your score: <%= score %>/<%= questions.length %></p>
+    <h2>Feedback:</h2>
+    <ul>
+        <% feedback.forEach(item => { %>
+            <li>
+                <strong>Question:</strong> <%= item.question %><br>
+                <% if (item.correct) { %>
+                    <span style="color: green;">Correct!</span>
+                <% } else { %>
+                    <span style="color: red;">Incorrect. Correct answer: <%= item.correctAnswer %></span>
+                <% } %>
+            </li>
+        <% }) %>
+    </ul>
+</body>
+</html>

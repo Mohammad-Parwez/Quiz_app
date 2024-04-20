@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node.js Quiz</title>
+</head>
+<body>
+    <h1>Node.js Quiz</h1>
+    <form action="/submit" method="post">
+        <% for(let i=0; i<questions.length; i++) { %>
+            <div>
+                <h3><%= questions[i].question %></h3>
+                <% for(let j=0; j<questions[i].options.length; j++) { %>
+                    <input type="radio" name="answers[<%= i %>]" value="<%= questions[i].options[j] %>">
+                    <%= questions[i].options[j] %><br>
+                <% } %>
+            </div>
+        <% } %>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

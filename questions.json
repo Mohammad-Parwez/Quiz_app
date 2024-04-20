@@ -1,0 +1,53 @@
+[
+    {
+      "question": "1.Which core module in Node.js is used for handling file operations?",
+      "options": ["http", "fs", "path", "net"],
+      "correct_answer": "fs"
+    },
+    {
+      "question": "2.What does the 'require' function do in Node.js?",
+      "options": ["Loads a Node.js module", "Exports a module", "Defines a new module", "Deletes a module"],
+      "correct_answer": "Loads a Node.js module"
+    },
+    {
+      "question": "3.In Node.js, what is the purpose of the 'event loop'?",
+      "options": ["To handle asynchronous operations", "To execute synchronous code", "To handle file I/O operations", "To parse JSON data"],
+      "correct_answer": "To handle asynchronous operations"
+    },
+    {
+      "question": "4.Which of the following is a valid way to handle errors in Node.js callbacks?",
+      "options": ["Using try-catch blocks", "Returning an error object as the first argument in the callback function", "Using the 'throw' keyword", "Ignoring the errors"],
+      "correct_answer": "Returning an error object as the first argument in the callback function"
+    },
+    {
+      "question": "5.What is the purpose of the 'exports' object in Node.js modules?",
+      "options": ["To import modules", "To define private variables", "To expose functionality to other modules", "To handle HTTP requests"],
+      "correct_answer": "To expose functionality to other modules"
+    },
+    {
+      "question": "6.Which of the following is NOT a built-in module in Node.js?",
+      "options": ["fs", "http", "express", "os"],
+      "correct_answer": "express"
+    },
+    {
+      "question": "7.What is a callback function in Node.js?",
+      "options": ["A function that is called after the completion of an asynchronous operation", "A function passed as an argument to another function to be executed later", "A function used to handle HTTP requests", "A function that returns a callback"],
+      "correct_answer": "A function passed as an argument to another function to be executed later"
+    },
+    {
+      "question": "8.Which method in the 'fs' module is used to read the contents of a file asynchronously in Node.js?",
+      "options": ["fs.readSync()", "fs.readFileSync()", "fs.readAsync()", "fs.readFile()"],
+      "correct_answer": "fs.readFile()"
+    },
+    {
+      "question": "9.What is the primary use of the 'path' module in Node.js?",
+      "options": ["To handle HTTP requests", "To parse URL strings", "To perform file path manipulations", "To create TCP servers"],
+      "correct_answer": "To perform file path manipulations"
+    },
+    {
+      "question": "10.In Node.js, which method is used to register event listeners?",
+      "options": ["addEventListener()", "on()", "addListener()", "registerEvent()"],
+      "correct_answer": "on()"
+    }
+  ]
+  
